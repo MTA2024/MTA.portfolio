@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                
+                <li><a href="#about">About</d></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+</header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm a Front-End Developer with a passion for creating beautiful<br>
+             and functional web designs.
+             I have experience with HTML, CSS, JavaScript.<br> My goal is to combine design and technology to build outstanding user experiences.</p>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience-item">
+            <h3>Freelance Web Developer</h3>
+        <p><strong>Personal Projects</strong></p>
+        <ul>
+            <li><strong>Portfolio Website:</strong> Designed and developed a personal portfolio showcasing my skills in HTML, CSS, and JavaScript.</li>
+            <br />
+            <li><strong>Energy Drink Brand Website:</strong> Created a vibrant website for the Zestle energy drink brand, including branding and interactive elements.</li>
+            <br>
+            <li><strong>Restaurant Menu:</strong> Developed an interactive menu for a restaurant, focusing on user experience and responsive design.</li>
+            <br>
+            <li><strong>Sales Dashboard:</strong> Built a dashboard for visualizing sales data with dynamic charts and data interaction.</li>
+            <br>
+        </ul>
+        </div>
+        <div class="experience-item">
+        <h3>Over 1 year experienced</h3>
+        <p>Front-End Developer
+            Freelance / Personal Projects
+            Dates: October 2023 – Present</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card" onclick="showProject('project1')">
+            <img src="https://i.postimg.cc/NMFb7ztg/1726256756178.jpg" alt="Project 1">
+            <h3>Project 1: Energy Drink Brand</h3>
+            <p>An engaging website for the energy drink brand Zestle, featuring vibrant design and interactive elements.</p>
+        </div>
+        <div class="project-card" onclick="showProject('project2')">
+            
+            <img src="https://i.postimg.cc/1tnv7kp5/pexels-holodna-14617903.jpg" height="100px" alt="Project 2">
+            <h3>Project 2: Restaurant Menu</h3>
+            <p>A dynamic menu for a restaurant, showcasing a modern interface with interactive features.</p>
+        </div>
+        <div class="project-card" onclick="showProject('project3')">
+            <img src="https://i.postimg.cc/3rVJ4mLs/pikaso-embed.png" alt="Project 3">
+            <h3>Project 3: Sales Dashboard</h3>
+            <p>An interactive dashboard for sales data, featuring charts and data visualization.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me:</p>
+        <a href="https://wa.me/2120702963373" target="_blank" class="contact-button">WhatsApp</a>
+        <a href="https://www.linkedin.com/in/mohamed-taha-atif-264b37303" target="_blank" class="contact-button">LinkedIn</a>
+        <a href="mailto:taha.atif2020@gmail.com" class="contact-button">Email</a>
+    </section>
+
+    <div id="project-details" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div id="project-content">
+            <!-- Project details will be dynamically loaded here -->
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Med Taha Atif. All rights reserved.</p>
+    </footer>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>

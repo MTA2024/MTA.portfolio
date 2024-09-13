@@ -1,0 +1,164 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+}
+
+header {
+    background: #2c3e50;
+    color:whitesmoke;
+    padding: 1rem;
+    text-align: right;
+    box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.3);
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.experience-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+    transition: background 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width:300px;
+    display: inline-block;
+    
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project-card:hover {
+    background: #ecf0f1;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+.project-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.project-card a:hover {
+    color: #3498db; /* Optional: change link color on hover */
+}
+#contact {
+    padding: 2rem;
+    text-align: center;
+    background: #3498db; /* Changed background color for visual impact */
+    color: #fff;
+}
+
+.contact-button {
+    display: inline-block;
+    background: #fff;
+    color: #3498db; /* Updated button color */
+    padding: 0.5rem 1.5rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+}
+
+.contact-button:hover {
+    background: #2980b9;
+    color: #fff;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer {
+    background: #2c3e50; /* Footer background color */
+    color: #ecf0f1;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+}
+
